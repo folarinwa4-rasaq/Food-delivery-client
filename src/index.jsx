@@ -40,7 +40,6 @@ root.render(
             <Route path='/all-orders' element={<All_Orders/>} />
             /*Auth Routes */
             <Route path='/signup' element={<Signup/>} />
-            <Route path='/create-profile' element={<Create_Profile/>} />
             <Route path='/signin' element={<Signin/>} />
         </Routes>
     </BrowserRouter>  

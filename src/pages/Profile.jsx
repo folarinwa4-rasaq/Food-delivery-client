@@ -3,8 +3,10 @@ import Navbar from '../components/Navbar';
 import axios from 'axios';
 import './styles/Profile.css';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function Profile() {
+    const navigate = useNavigate()
     const [data,setData] = useState([])
     useEffect(()=>{
         try {
