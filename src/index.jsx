@@ -6,7 +6,6 @@ import App from './pages/App';
 import SingleProduct from './pages/product'
 import Profile from './pages/Profile'
 import Verify_Payment from './pages/Verify-Payment'
-import Create_Profile from './auth-pages/Create-Profile'
 import Cart from './pages/Cart';
 import Orders from './pages/Orders';
 import Admin_Home from './admin-pages/Admin-Home'
@@ -17,8 +16,6 @@ import View_Admins from './admin-pages/AllAdmins'
 import All_Orders from './admin-pages/All-Orders';
 import Signup from './auth-pages/signup'
 import Signin from './auth-pages/Signin'
-import Admin_Signin from './auth-pages/Admin-Signin'
-import Admin_Signup from './auth-pages/Admin-Signup'
 import {Toaster} from 'react-hot-toast'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
