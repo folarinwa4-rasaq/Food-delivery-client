@@ -1,0 +1,63 @@
+.cart-food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px #4176fc solid;
+    border-radius: 20px;
+    height: 50px;
+    padding: 5px 20px 5px 20px;
+    background-color: #e1e9fc;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.table-div {
+    padding: 20px 20px 0 20px;
+}
+
+.table-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96px;
+}
+
+.food-buttons {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add {
+    padding: 5px;
+    background-color: #3b69f5;
+}
+
+.view {
+    background-color: #0b37bc;
+    padding: 5px;
+}
+
+@media only screen and (max-width:767px) {
+    .table-details {
+        width: 130px;
+    }
+    .cart-food {
+        padding: 0px 5px;
+    }
+    .food-buttons button,
+    .add,
+    .view {
+        font-size: small;
+        margin: 0;
+        padding: 3;
+    }
+    .table-div {
+        padding: 5px 3px;
+    }
+    .table-details p {
+        font-size: 14px;
+        margin: 0;
+    }
+}

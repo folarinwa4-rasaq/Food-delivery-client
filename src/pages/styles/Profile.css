@@ -1,0 +1,17 @@
+.profile {
+    padding: 10px 50px;
+    width: 500px;
+}
+
+.y-profile {
+    margin: 20px 0 0 50px;
+}
+
+@media only screen and (max-width:767px) {
+    .profile {
+        width: auto;
+    }
+    .y-profile {
+        margin-top: 2px 0 0 10px;
+    }
+}

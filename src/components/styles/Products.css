@@ -1,0 +1,58 @@
+.prod-card {
+    border: 1px black solid;
+    background-color: #4176fc;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 280px;
+    margin-top: 5px;
+    height: 300px;
+}
+
+.prod-card:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+    place-content: center;
+    padding: 0 50px;
+}
+
+.prod-header {
+    text-align: center;
+}
+
+.food-img {
+    width: 280px;
+    height: 150px;
+}
+
+@media only screen and (max-width:767px) {
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5px;
+        column-gap: 5px;
+        place-content: center;
+        padding: 0 10px;
+    }
+    .prod-card {
+        height: 200px;
+        width: 100px;
+        padding: 10px;
+    }
+    .prod-card p {
+        margin: 5px;
+    }
+    .food-img {
+        height: 50px;
+        width: 100px;
+    }
+    .prod-header {
+        display: flex;
+    }
+}

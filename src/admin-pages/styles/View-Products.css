@@ -1,0 +1,26 @@
+.prod-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1e9fc;
+    border-bottom: 0.1px #000000 solid;
+    padding: 0 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: .1s;
+}
+
+.prod-box:hover {
+    padding: 2px;
+    opacity: 0.7;
+}
+
+.pro {
+    padding: 2px 0 0 0;
+}
+
+.pro-img {
+    width: 50px;
+    height: 50px;
+}

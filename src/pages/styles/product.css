@@ -1,0 +1,90 @@
+.back {
+    padding: 5px;
+    border: none;
+    background-color: #201f24;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.back:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.content {
+    padding: 20px 50px;
+    text-transform: capitalize;
+}
+
+.food-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 150px;
+}
+
+.prod-name {
+    text-align: center;
+    margin: 0;
+}
+
+.order {
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(105, 160, 243, 0.742);
+    cursor: pointer;
+}
+
+.add-cart {
+    background-color: #0b37bc;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.proddiv {
+    width: 500px;
+}
+
+.proddiv input {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.proddiv label {
+    font-size: medium;
+    font-weight: 200;
+}
+
+.prodimg {
+    width: 450px;
+    height: 450px;
+    margin-top: -230px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width:767px) {
+    .food-content {
+        display: block;
+        width: auto;
+        padding-right: 5px;
+    }
+    .proddiv {
+        width: auto;
+    }
+    .content {
+        padding: 10px 5px;
+    }
+    .food-content h2 {
+        margin: 0;
+    }
+    .prodimg {
+        margin-top: 0;
+        margin-bottom: 3px;
+        width: 300px;
+        height: 150px;
+    }
+}

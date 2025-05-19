@@ -1,0 +1,63 @@
+.header {
+    background-color: #4176fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.header div {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border: none;
+}
+
+.logout {
+    padding: 12px;
+    border: none;
+    background-color: #201f24;
+    color: white;
+    cursor: pointer;
+}
+
+.logout:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.cart-length {
+    background-color: black;
+    color: white;
+    height: 5px;
+    width: 5px;
+    padding-right: 3px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width:767px) {
+    .header {
+        padding: 5px 2px;
+        width: 100%;
+    }
+    .header h1 {
+        margin: 0 5px 0 0;
+        font-size: larger;
+    }
+    .header div h3 {
+        font-size: small;
+        margin: 0;
+        padding: 0;
+    }
+}
