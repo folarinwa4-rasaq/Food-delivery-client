@@ -3,8 +3,10 @@ import axios from 'axios'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom';
 import './styles/Orders.css'
+import { useNavigate } from 'react-router-dom';
 
 export default function Orders() {
+    const navigate = useNavigate()
     const [data,setData] = useState([])
     useEffect(()=>{
         try {

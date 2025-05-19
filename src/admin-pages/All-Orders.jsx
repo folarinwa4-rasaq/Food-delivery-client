@@ -11,11 +11,7 @@ export default function All_Orders() {
                 const fetchData = async () => {
                     try {
                         const response = await axios.get('/allOrders')
-                        if(response.data.auth){
-                            navigate('/signin')
-                        }else{
-                            setData(response.data)
-                        }
+                        setData(response.data)
                     } catch (error) {
                         console.log(error)
                     }
