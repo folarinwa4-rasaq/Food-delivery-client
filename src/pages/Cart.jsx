@@ -1,10 +1,12 @@
 import React,{useState,useEffect} from 'react';
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom';
 import './styles/Cart.css'
 
 export default function Cart() {
+    const navigate = useNavigate()
     const [data,setData] = useState([])
     useEffect(()=>{
         try {
