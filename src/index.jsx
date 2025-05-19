@@ -19,7 +19,7 @@ import Signin from './auth-pages/Signin'
 import {Toaster} from 'react-hot-toast'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL = 'https://food-delivery-server.onrender.com/api'
+axios.defaults.baseURL = 'https://food-delivery-api.onrender.com/api'
 axios.defaults.withCredentials = true
 root.render(
     <BrowserRouter>
